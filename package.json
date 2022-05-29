@@ -1,0 +1,27 @@
+{
+  "name": "nft-image-backend",
+  "version": "1.0.0",
+  "description": "NFT image backend based on smart contract",
+  "private": true,
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development --reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfriend/nft-image-backend.git"
+  },
+  "keywords": [
+    "Smart Contract",
+    "Solidity",
+    "ERC721"
+  ],
+  "author": "bitfriend",
+  "license": "ISC",
+  "homepage": "https://github.com/bitfriend/nft-image-backend#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.1",
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "truffle": "^5.4.9"
+  }
+}
